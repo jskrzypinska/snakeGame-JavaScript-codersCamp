@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake game</title>
+</head>
+
+<body>
+    <div id="game">
+        <canvas id="snake" width="608" height="608"></canvas>
+    </div>
+    <div id="start-modal" class="modal">
+        <div class="modal-fill">
+            <h2>SNAKE GAME</h2>
+            <p> Use the arrows to eat the apple to become bigger and win the game!</p>
+            <div id="s-buttons">
+                <button id="start-game" class="start-gry" type="button">
+                    START
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="scores-modal" class="scores-modal">
+        <div class="modal-fill">
+
+            <h2>Your score is : <span id="yourScore">0</span></h2>
+            <form>
+                <input type="text" name="username" placeholder="User Name" id="username">
+                <button class="btn" type="submit" id="saveScoreBtn">Save</button>
+            </form>
+            <div id="score-table-modal"></div>
+            <button id="score-exit-btn" class="score-exit-btn" type="button">Again</button>
+        </div>
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+
+</html>
