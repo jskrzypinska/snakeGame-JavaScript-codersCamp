@@ -1,6 +1,6 @@
 # SNAKE GAME
 
-Game created with HTML, CSS, HTML5 CANVAS and JavaScript.
+Game created with HTML, CSS, HTML5 CANVAS and JavaScript. <br />
 Score is saved in local storage.
 
 ## Working demo
