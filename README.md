@@ -5,7 +5,7 @@ Score is saved in local storage.
 
 ## Working demo
 
-https://jskrzypinska.github.io/portfolio-coders-camp/
+https://jskrzypinska.github.io/snakeGame-JavaScript-codersCamp/
 
 ## Author
 
